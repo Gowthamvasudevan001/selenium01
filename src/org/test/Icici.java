@@ -15,11 +15,7 @@ public static void main(String[] args) {
 	
 	driver.get("https://infinity.icicibank.com/corp/Login.jsp");
 	
-	WebElement user = driver.findElement(By.id("DUMMY1"));
-	user.sendKeys("132564874");
 	
-	WebElement done = driver.findElement(By.id("user-id-goahead"));
-	done.click();
 	
 	WebElement pass = driver.findElement(By.id("AuthenticationFG.ACCESS_CODE"));
 	pass.sendKeys("gsh45slsb");

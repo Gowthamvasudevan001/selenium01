@@ -13,12 +13,6 @@ public static void main(String[] args) {
 	
 	driver.manage().window().maximize();
 	
-	driver.get("https://www.facebook.com/");
 	
-	WebElement User = driver.findElement(By.id("email"));
-	User.sendKeys("gowthamvasudevvan20@gmail.com");
-	
-	WebElement password = driver.findElement(By.id("pass"));
-	password.sendKeys("123456789");
 }
 }
